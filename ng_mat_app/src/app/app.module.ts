@@ -19,7 +19,6 @@ import { SideNavbarComponent } from './side-navbar-module/side-navbar/side-navba
     DashboardComponent,
     ProfileContainerComponent,
     ProfileComponent,
-    DashboardContainerComponent,
     TableListContainerComponent,
     TableListComponent,
     SideNavbarComponent,
@@ -28,7 +27,8 @@ import { SideNavbarComponent } from './side-navbar-module/side-navbar/side-navba
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DashboardContainerComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
