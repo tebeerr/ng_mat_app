@@ -3,19 +3,20 @@
         <img src="favicon.ico" alt="logo" class="logo">
         <h1>Creative Tim</h1>
     </div>
+    
     <div class="side-nav-items">
-        <div class="side-nav-item">
-            <img src="assets/icons/dashboard_icon.svg" alt="dashboard" class="dashboard-icon">
-            <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-        </div>
-        <div class="side-nav-item">
-            <img src="assets/icons/profil_icon.svg" alt="dashboard" class="profile-icon">
-            <a routerLink="/profile" routerLinkActive="active">User Profile</a>
-        </div>
-        <div class="side-nav-item">
-            <img src="assets/icons/list_icon.svg" alt="dashboard" class="list-icon">
-            <a routerLink="/table-list" routerLinkActive="active">Table List</a>
-        </div>
+        <a class="nav-item" routerLink="/dashboard" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            <img src="assets/icons/dashboard_icon.svg" alt="dashboard" class="icon">
+            <span>Dashboard</span>
+        </a>
+        <a class="nav-item" routerLink="/profile" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            <img src="assets/icons/profil_icon.svg" alt="profile" class="icon">
+            <span>User Profile</span>
+        </a>
+        <a class="nav-item" routerLink="/table-list" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            <img src="assets/icons/list_icon.svg" alt="table list" class="icon">
+            <span>Table List</span>
+        </a>
     </div>
     
 

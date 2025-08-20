@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 import { DashboardComponent } from './dashboard-module/dashboard/dashboard.component';
 import { ProfileContainerComponent } from './profile-module/profile-container/profile-container.component';
@@ -28,6 +29,7 @@ import { SideNavbarComponent } from './side-navbar-module/side-navbar/side-navba
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    HttpClientModule,
     DashboardContainerComponent,
   ],
   providers: [],
