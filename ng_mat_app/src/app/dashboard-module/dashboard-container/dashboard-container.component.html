@@ -1,8 +1,31 @@
 <div class="dashboard-container">
     <p>Dashboard</p>
+    <div class="thin-separator"></div>
     <div class="dashboard-content">
         <div class="dashboard-cards">
-            <mat-card class="stats-card" appearance="outlined">
+          <mat-card class="stats-card" appearance="outlined">
+            <div class="card-icon">
+                <mat-icon>content_copy</mat-icon>
+            </div>
+  
+            <div class="card-header">
+                <span class="label">Used Space</span>
+            </div>
+  
+            <div class="card-value">
+                <span class="value">49/50</span>
+                <span class="unit">GB</span>
+            </div>
+  
+            <div class="card-divider"></div>
+  
+            <div class="card-footer">
+                <mat-icon class="warn">warning</mat-icon>
+                <a href="#">Get More Space...</a>
+            </div>
+        </mat-card>  
+          
+          <mat-card class="stats-card" appearance="outlined">
                 <div class="card-icon green">
                     <mat-icon>store</mat-icon>
                 </div>
@@ -66,27 +89,7 @@
             </div>
         </mat-card>
 
-        <mat-card class="stats-card" appearance="outlined">
-          <div class="card-icon">
-              <mat-icon>content_copy</mat-icon>
-          </div>
-
-          <div class="card-header">
-              <span class="label">Used Space</span>
-          </div>
-
-          <div class="card-value">
-              <span class="value">49/50</span>
-              <span class="unit">GB</span>
-          </div>
-
-          <div class="card-divider"></div>
-
-          <div class="card-footer">
-              <mat-icon class="warn">warning</mat-icon>
-              <a href="#">Get More Space...</a>
-          </div>
-      </mat-card>
+        
         </div>
         
     </div>

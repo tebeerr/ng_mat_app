@@ -4,6 +4,7 @@
         flex-direction: column;
         align-items: center;
         gap: 50px;
+        
     .side-nav-header{
         display: flex;
         justify-content: center;
@@ -11,6 +12,12 @@
         align-items: center;
         gap: 10px;
         
+    }
+    .thin-separator{
+        height: 1px;
+        width: 100%;
+        background: rgba(0,0,0,0.08);
+        margin: 4px 0 12px 0;
     }
     .side-nav-items{
         display: flex;
