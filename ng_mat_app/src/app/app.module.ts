@@ -13,6 +13,7 @@ import { DashboardContainerComponent } from './dashboard-module/dashboard-contai
 import { TableListContainerComponent } from './table-list-module/table-list-container/table-list-container.component';
 import { TableListComponent } from './table-list-module/table-list/table-list.component';
 import { SideNavbarComponent } from './side-navbar-module/side-navbar/side-navbar.component';
+import { TopbarComponent } from './layout/topbar/topbar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SideNavbarComponent } from './side-navbar-module/side-navbar/side-navba
     TableListContainerComponent,
     TableListComponent,
     SideNavbarComponent,
-    MainLayoutComponent
+    MainLayoutComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule,
